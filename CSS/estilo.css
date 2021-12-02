@@ -14,7 +14,10 @@
    }
 
   body{
-      font-family: "Fredoka One";
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Fredoka One"; */
+    
   }
    
 
@@ -29,12 +32,12 @@
    #tabela li {
      /* border: 1px solid red; */
      list-style-type: none;
-     font-weight: bold;
+     /* font-weight: bold; */
    }
 
-   /* .bordaGeral {
+   .bordaGeral {
      border: red 1px solid;
-   } */
+   }
 
    
 
