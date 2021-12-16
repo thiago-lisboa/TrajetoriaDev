@@ -1,12 +1,7 @@
-.figura1 {
-  
-
+.botao {
+  width: 100%;
+  right: 10px;
 }
-
-.figura2 {
-
-}
-
 #logo {
     width: 140px;
     height: 160px;
@@ -48,9 +43,9 @@
 
    
 
-   li:hover {
+   /* li:hover {
      background-color: orange;
-   }
+   } */
    li {
      font-weight: bold;
    }
