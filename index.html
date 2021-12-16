@@ -18,7 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> -->
     
+    <!-- <script>
+      function imagemTexto(img) {
+        document.getElementById('Imagem').src= img;
     
+
+      }
+    </script> -->
     
 
     
@@ -61,23 +67,23 @@
             <div class="row" style="justify-content: center;">
               <div class="bordaGeral" class="col-sm">
                 <ul id="tabela" class="list-group" style="text-align:center">
-                  <li> Git - Controle de versão</li>
-                  <li> Utilização Básica Terminal</li>
-                  <li> Estrutura de dados e Algoritimos</li>
-                  <li> GitHub</li>
-                  <li> Licenças</li>
-                  <li> Versionamento Semântico</li>
-                  <li> SSH</li>
-                  <li>HTTP/HTTPS e APIs</li>
-                  <li>Padões de design</li>
-                  <li>Codificação de caracteres</li>
+                  <li type="button" onclick="imagemTexto('imagens/git.png')">Git - Controle de versão</li>
+                  <li onclick="imagemTexto('2')"> Utilização Básica Terminal</li>
+                  <li onclick="imagemTexto('3')"> Estrutura de dados e Algoritimos</li>
+                  <li onclick="imagemTexto('4')"> GitHub</li>
+                  <li onclick="imagemTexto('5')"> Licenças</li>
+                  <li onclick="imagemTexto('6')"> Versionamento Semântico</li>
+                  <li onclick="imagemTexto('7')"> SSH</li>
+                  <li onclick="imagemTexto('8')">HTTP/HTTPS e APIs</li>
+                  <li onclick="imagemTexto('9')">Padões de design</li>
+                  <li onclick="imagemTexto('10')">Codificação de caracteres</li>
                 </ul>
               </div>  
-              <div class="bordaGeral" class="col-sm">
-                ?
+              <div  class="col-sm">
+                <img id="imagem" src="imagens/Capa.jpg" class="img-fluid" alt="">
               </div>
-              <div class="bordaGeral" class="col-sm">
-               ?
+              <div  id="quadrado2" class="figura" class="bordaGeral" class="col-sm">
+               
               </div>  
             </div>
           </div>
