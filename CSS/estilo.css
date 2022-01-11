@@ -26,6 +26,7 @@
 
    #principal {
      background-image: url("../imagens/Capa1.jpg");
+     background-attachment: fixed;
      padding: 50px;
      border: royalblue 2px solid; 
 
@@ -37,9 +38,9 @@
      /* font-weight: bold; */
    }
 
-   /* .bordaGeral {
+   .bordaGeral {
      border: red 1px solid;
-   } */
+   }
 
    
 
