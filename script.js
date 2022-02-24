@@ -1,7 +1,25 @@
+// $(document).ready(() => {
+
+//     $('#oi').attr('style', 'background-color: red;');
+    
+// });
+
+
+   
+
+
+
+
 function imagemTexto(mg,nu) {
     
     document.getElementById('imagem').src= mg;
     document.getElementById('paragrafo').innerHTML=lista_p[nu];
+    
+}
+
+function clicar(){
+   document.getElementById('B').innerHTML='Botão clicado';
+
 }
 
 // function retorneImagem(){

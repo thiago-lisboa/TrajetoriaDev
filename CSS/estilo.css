@@ -9,6 +9,7 @@
     padding-top: 50px;
     padding-bottom: 0%;
     position: absolute;
+    
    }
 
    #menu {
@@ -25,7 +26,7 @@
 
 
    #principal {
-     background-image: url("../imagens/Capa1.jpg");
+     /* background-image: url("../imagens/Capa1.jpg"); */
      background-attachment: fixed;
      padding: 50px;
      border: royalblue 2px solid; 
@@ -49,4 +50,8 @@
    } */
    li {
      font-weight: bold;
+   }
+
+   button:active {
+     background: orange;
    }
